@@ -36,21 +36,21 @@ E. student.courseLoad[0]
 # check!!! 
 
 14. 
-A. 5 because numeric conversions happen in mathematical functions and expressions automatically. 
+A. 32 because for addition, if at least one operand is a string, then the other is converted to a string type and  then JavaScript concatenates the two. 
 
 B. 1 because numeric conversions happen in mathematical functions and expressions automatically. 
 
 C. Null is converted to a 0 and 3+0=3, so the answer is 3. 
 
-D. Null is converted to a 0 and '3' is converted to a 3 because numeric functions are automatic, so the answer is 3.
+D. 3null because 3 is a string, so null is also converted to a string, and both strings are concatenated together. 
 
 E. True is converted to 1 and 3+1 = 4, so answer is 4. 
 
 F. False is converted to a 0 and null is 0 so the answer is 0.
 
-G. NaN because undefined is NaN.
+G. An error because undefined is NaN.
 
-H. NaN because undefined is NaN.
+H. An error because undefined is NaN.
 
 15. 
 A. True because when JavaScript converts the values to numbers so 2 > 1. 
