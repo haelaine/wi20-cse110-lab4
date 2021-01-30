@@ -1,4 +1,4 @@
-# DevTools - Debuggin
+# DevTools - Debugging
 1. The bug is that the result is of type string instead of type number, so instead of adding the two numbers the numbers are concatenated. 
 
 2. I would fix it by making num1 and num2 of type Number by using the Number() function.
