@@ -1,4 +1,4 @@
-var intervalID = scope.setInterval(func, 1000);
+var intervalID = setInterval(func, 1000);
 function func()
 {
  	let d = new Date(); 
