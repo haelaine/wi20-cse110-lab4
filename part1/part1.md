@@ -71,8 +71,11 @@ F. Boolean(2) results in true and true === true is true, so overall it is true.
 17. This prints out 'How are you?' because for the first if statement, since we are comparing values of different types, true is converted to 1 and 1 != 2. For the second else-if statement, 2 is true by boolean conversion, so what's in the console.log under is printed out. 
 
 18. for (property in statistics) {
+
     if (statistics[property]%2 == 1)
+    
         console.log(statistics[property]);
+        
 }
 
 19. The result is [6,8,10]. First, the modifyArray function is called. Then the for loop is entered. Within the for loop, there exists a callback function so the doSomething function is called since that is the callback function placed in the function call modifyArray([1,2,3], doSomething). The doSomething returns the callback function with the parameters num+2 so it goes back to inside the loop and calls function(num+2). Thus, the values become (2+x) from the doSomething function and the function multiplies it by 2.
@@ -82,9 +85,13 @@ var intervalID = window.setInterval(func, 1000);
 
 function func(a, b)
 {
+
  	let d = new Date(); 
+    
     let time = d.toLocaleTimeString();
+    
     console.log(time);
+    
 }
 
 21. Output is 1,4,3, and after 1000 milliseconds, 2. 
