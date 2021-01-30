@@ -1,5 +1,5 @@
 for (property in statistics) {
-    if (statistics[property]%2 == 1)
+    if (property[0] == 'r' || statistics[property]%2 == 1)
         console.log(statistics[property]);
         
 }
