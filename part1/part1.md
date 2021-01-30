@@ -37,20 +37,32 @@ E. student.courseLoad[0]
 
 14. 
 A. 5 because numeric conversions happen in mathematical functions and expressions automatically. 
+
 B. 1 because numeric conversions happen in mathematical functions and expressions automatically. 
+
 C. Null is converted to a 0 and 3+0=3, so the answer is 3. 
-D.  Null is converted to a 0 and '3' is converted to a 3 because numeric functions are automatic, so the answer is 3.
+
+D. Null is converted to a 0 and '3' is converted to a 3 because numeric functions are automatic, so the answer is 3.
+
 E. True is converted to 1 and 3+1 = 4, so answer is 4. 
+
 F. False is converted to a 0 and null is 0 so the answer is 0.
+
 G. NaN because undefined is NaN.
+
 H. NaN because undefined is NaN.
 
 15. 
 A. True because when JavaScript converts the values to numbers so 2 > 1. 
+
 B. False because JavaScript compares the first characters of each string and '2' > '1'.
+
 C. True because when JavaScript converts the values to numbers so 2 > 1. 
+
 D. False  because there is no type conversion.
+
 E. False because true is converted to 1 and 1 != 2.  
+
 F. Boolean(2) results in true and true === true is true, so overall it is true. 
 
 16. === checks the equality without type conversion while a == converts operands of different types to numbers. 
